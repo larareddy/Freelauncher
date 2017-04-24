@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lt_grey_panel_card"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/maintainance"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp67"
+        android:layout_marginLeft="@dimen/dp18"
+        android:layout_marginTop="@dimen/dp19"
+        android:src="@drawable/ic_maintenance_blue" />
+
+    <harman.com.freelauncher.customui.NSRegularTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp30"
+        android:layout_marginTop="@dimen/dp19"
+        android:layout_toEndOf="@id/maintainance"
+        android:maxLines="1"
+        android:text="Available Appointments"
+        android:textColor="#00689d"
+        android:textSize="@dimen/sp54" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/maintainance"
+        android:layout_marginLeft="@dimen/dp24"
+        android:layout_marginRight="@dimen/dp24"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <harman.com.freelauncher.customui.NSRegularButton
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="@string/appt1"
+            android:textAllCaps="false"
+            android:textSize="@dimen/sp42" />
+
+        <harman.com.freelauncher.customui.NSRegularButton
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="21dp"
+            android:gravity="center"
+            android:text="@string/appt2"
+            android:textAllCaps="false"
+            android:textSize="@dimen/sp42" />
+
+        <harman.com.freelauncher.customui.NSRegularButton
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="21dp"
+            android:gravity="center"
+            android:text="@string/appt3"
+            android:textAllCaps="false"
+            android:textSize="@dimen/sp42" />
+
+        <harman.com.freelauncher.customui.NSRegularButton
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="21dp"
+            android:gravity="center"
+            android:text="@string/remind"
+            android:textAllCaps="false"
+            android:textSize="@dimen/sp42"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+</RelativeLayout>

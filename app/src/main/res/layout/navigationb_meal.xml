@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp150"
+    android:background="@drawable/full_map_green_card">
+
+    <include
+        android:id="@+id/directions_map"
+        layout="@layout/navigation_card"
+        android:layout_width="94dp"
+        android:layout_height="94dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="@dimen/dp5" />
+
+
+    <harman.com.freelauncher.customui.NSRegularTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/directions_map"
+
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:text="10000 ft"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sp36" />
+
+    <harman.com.freelauncher.customui.NSRegularTextView
+        android:id="@+id/broadway"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="345dp"
+        android:text="@string/dest_street"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/sp60" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/broadway"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="190dp"
+        android:orientation="horizontal">
+
+        <harman.com.freelauncher.customui.NSBoldTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dest_mins"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/sp40" />
+
+        <harman.com.freelauncher.customui.NSRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/dest_miles"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/sp40" />
+
+        <harman.com.freelauncher.customui.NSRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="19dp"
+            android:layout_weight="1"
+            android:text="@string/dest_time"
+            android:textAlignment="textEnd"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/sp40" />
+    </LinearLayout>
+
+</RelativeLayout>
+
