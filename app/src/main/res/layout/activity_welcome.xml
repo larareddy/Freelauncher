@@ -21,7 +21,7 @@
             homescreen:cardElevation="5dp"
             homescreen:cardMaxElevation="10dp">
 
-            <include layout="@layout/maintainance_confirm_meal" />
+            <include layout="@layout/maintainance_notification_meal" />
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView

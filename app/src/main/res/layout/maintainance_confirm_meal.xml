@@ -19,7 +19,8 @@
         android:layout_height="530dp"
         android:layout_below="@+id/profile_image"
         android:layout_marginTop="13dp"
-        app:cardElevation="50sp">
+        app:cardElevation="50dp"
+        app:cardMaxElevation="55dp">
     <include
         layout="@layout/appointment_confirmed"
         >
