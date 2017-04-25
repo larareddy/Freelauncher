@@ -5,7 +5,7 @@ android:layout_height="match_parent"
 android:orientation="vertical">
 
 
-    <harman.com.freelauncher.customui.NSRegularTextView
+    <harman.com.freelauncher.customui.RobotoRegularTextView
     android:id="@+id/App_title_text"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -22,7 +22,7 @@ android:orientation="vertical">
     android:layout_gravity="center_horizontal"
     android:src="@drawable/default_album_art" />
 
-    <harman.com.freelauncher.customui.NSRegularTextView
+    <harman.com.freelauncher.customui.RobotoRegularTextView
     android:id="@+id/text1"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -32,7 +32,7 @@ android:orientation="vertical">
     android:textAlignment="center"
     android:textSize="@dimen/sp54" />
 
-    <harman.com.freelauncher.customui.NSRegularTextView
+    <harman.com.freelauncher.customui.RobotoRegularTextView
     android:id="@+id/text2"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"

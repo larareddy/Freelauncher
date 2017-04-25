@@ -30,7 +30,7 @@
                     android:layout_centerInParent="true"
                     android:src="@drawable/ic_destination_flag" />
 
-                <harman.com.freelauncher.customui.NSRegularTextView
+                <harman.com.freelauncher.customui.RobotoRegularTextView
                     android:id="@+id/nav_title_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
                     android:layout_marginStart="125dp"
                     android:orientation="horizontal">
 
-                    <harman.com.freelauncher.customui.NSBoldTextView
+                    <harman.com.freelauncher.customui.RobotoBoldTextView
                         android:id="@+id/nav_time_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
                         android:textColor="#176637"
                         android:textSize="@dimen/sp42" />
 
-                    <harman.com.freelauncher.customui.NSRegularTextView
+                    <harman.com.freelauncher.customui.RobotoRegularTextView
                         android:id="@+id/nav_point_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -91,7 +91,7 @@
                     android:layout_centerInParent="true"
                     android:src="@drawable/ic_calendar" />
 
-                <harman.com.freelauncher.customui.NSRegularTextView
+                <harman.com.freelauncher.customui.RobotoRegularTextView
                     android:id="@+id/title_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -108,7 +108,7 @@
                     android:layout_marginStart="125dp"
                     android:orientation="horizontal">
 
-                    <harman.com.freelauncher.customui.NSBoldTextView
+                    <harman.com.freelauncher.customui.RobotoBoldTextView
                         android:id="@+id/cal_time_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -116,7 +116,7 @@
                         android:textColor="#176637"
                         android:textSize="@dimen/sp42" />
 
-                    <harman.com.freelauncher.customui.NSRegularTextView
+                    <harman.com.freelauncher.customui.RobotoRegularTextView
                         android:id="@+id/cal_point_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -127,7 +127,7 @@
                 </LinearLayout>
             </RelativeLayout>
 
-    <harman.com.freelauncher.customui.NSRegularButton
+    <harman.com.freelauncher.customui.RobotoRegularButton
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

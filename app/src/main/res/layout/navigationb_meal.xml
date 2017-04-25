@@ -13,7 +13,7 @@
         android:layout_marginTop="@dimen/dp5" />
 
 
-    <harman.com.freelauncher.customui.NSRegularTextView
+    <harman.com.freelauncher.customui.RobotoRegularTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/directions_map"
@@ -24,7 +24,7 @@
         android:textColor="@android:color/white"
         android:textSize="@dimen/sp36" />
 
-    <harman.com.freelauncher.customui.NSRegularTextView
+    <harman.com.freelauncher.customui.RobotoRegularTextView
         android:id="@+id/broadway"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
         android:layout_marginLeft="190dp"
         android:orientation="horizontal">
 
-        <harman.com.freelauncher.customui.NSBoldTextView
+        <harman.com.freelauncher.customui.RobotoBoldTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -50,7 +50,7 @@
             android:textColor="#ffffff"
             android:textSize="@dimen/sp40" />
 
-        <harman.com.freelauncher.customui.NSRegularTextView
+        <harman.com.freelauncher.customui.RobotoRegularTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -59,7 +59,7 @@
             android:textColor="#ffffff"
             android:textSize="@dimen/sp40" />
 
-        <harman.com.freelauncher.customui.NSRegularTextView
+        <harman.com.freelauncher.customui.RobotoRegularTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="19dp"

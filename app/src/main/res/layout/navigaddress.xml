@@ -16,7 +16,7 @@
         android:layout_height="@dimen/dp75"
         android:background="@drawable/grey_navigation_card">
 
-        <harman.com.freelauncher.customui.NSRegularTextView
+        <harman.com.freelauncher.customui.RobotoRegularTextView
             android:id="@+id/bigroad"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

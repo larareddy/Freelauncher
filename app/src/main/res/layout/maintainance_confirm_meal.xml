@@ -18,9 +18,11 @@
     <include
         layout="@layout/appointment_confirmed"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="530dp"
         android:layout_marginTop="13dp"
         android:layout_below="@+id/profile_image">
 
     </include>
+
+
 </RelativeLayout>

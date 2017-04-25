@@ -9,7 +9,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="19dp"
         android:src="@drawable/aha_logo"/>
-    <harman.com.freelauncher.customui.NSRegularTextView
+    <harman.com.freelauncher.customui.RobotoRegularTextView
         android:id="@+id/text22"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
         android:layout_below="@+id/text22"
         android:src="@drawable/default_album_art"
         android:layout_marginTop="16dp"/>
-    <harman.com.freelauncher.customui.NSRegularTextView
+    <harman.com.freelauncher.customui.RobotoRegularTextView
         android:id="@+id/artist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
         android:textSize="54sp"
         android:gravity="center"
         android:layout_marginTop="20dp"/>
-    <harman.com.freelauncher.customui.NSRegularTextView
+    <harman.com.freelauncher.customui.RobotoRegularTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="This American Life"

@@ -6,36 +6,37 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.Button;
+import android.widget.TextView;
 
 /**
  * Created by HAlavala on 4/20/2017.
  */
 
-public class NSRegularButton extends Button {
+public class RobotoBoldButton extends Button {
     private static final String TAG = "RobotoTextView";
 
-    public NSRegularButton(Context context) {
+    public RobotoBoldButton(Context context) {
         super(context);
         init();
     }
 
-    public NSRegularButton(Context context, @Nullable AttributeSet attrs) {
+    public RobotoBoldButton(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         init();
     }
 
-    public NSRegularButton(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public RobotoBoldButton(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init();
     }
 
-    public NSRegularButton(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+    public RobotoBoldButton(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
         init();
     }
     private void init()
     {
-        Typeface tf = Typeface.createFromAsset(getContext().getAssets(), "fonts/Roboto-Regular.ttf");
+        Typeface tf = Typeface.createFromAsset(getContext().getAssets(), "fonts/Roboto-Bold.ttf");
         if(tf==null)
             Log.v(TAG,"RobotoTextView null");
         setTypeface(tf);

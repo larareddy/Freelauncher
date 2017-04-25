@@ -19,7 +19,7 @@
             android:layout_marginLeft="24dp"
             android:background="@drawable/meal_card">
 
-            <include layout="@layout/profile_image" />
+            <include layout="@layout/navigation_routeactivetest" />
         </FrameLayout>
 
         <FrameLayout
@@ -29,7 +29,7 @@
             android:layout_marginLeft="24dp"
             android:background="@drawable/meal_card">
 
-            <include layout="@layout/maintainance_confirm_meal" />
+            <include layout="@layout/skype_meal_views" />
         </FrameLayout>
     </LinearLayout>
 </LinearLayout>

@@ -50,7 +50,7 @@
                         android:src="@drawable/arrow_rt" />
                 </RelativeLayout>
 
-                <harman.com.freelauncher.customui.NSRegularTextView
+                <harman.com.freelauncher.customui.RobotoRegularTextView
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -61,7 +61,7 @@
                     android:textSize="@dimen/sp75" />
             </LinearLayout>
 
-            <harman.com.freelauncher.customui.NSRegularTextView
+            <harman.com.freelauncher.customui.RobotoRegularTextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -83,14 +83,14 @@
                     android:layout_centerVertical="true"
                     android:layout_marginStart="@dimen/dp19">
 
-                    <harman.com.freelauncher.customui.NSBoldTextView
+                    <harman.com.freelauncher.customui.RobotoBoldTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="36"
                         android:textColor="#FFFFFF"
                         android:textSize="@dimen/sp60" />
 
-                    <harman.com.freelauncher.customui.NSRegularTextView
+                    <harman.com.freelauncher.customui.RobotoRegularTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text=" min"
@@ -105,14 +105,14 @@
                     android:layout_centerInParent="true"
                     android:gravity="center_horizontal">
 
-                    <harman.com.freelauncher.customui.NSRegularTextView
+                    <harman.com.freelauncher.customui.RobotoRegularTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="2.1"
                         android:textColor="#FFFFFF"
                         android:textSize="@dimen/sp60" />
 
-                    <harman.com.freelauncher.customui.NSRegularTextView
+                    <harman.com.freelauncher.customui.RobotoRegularTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="mi"
@@ -126,14 +126,14 @@
                     android:layout_centerVertical="true"
                     android:layout_marginEnd="@dimen/dp19">
 
-                    <harman.com.freelauncher.customui.NSRegularTextView
+                    <harman.com.freelauncher.customui.RobotoRegularTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="10:07"
                         android:textColor="#FFFFFF"
                         android:textSize="@dimen/sp60" />
 
-                    <harman.com.freelauncher.customui.NSRegularTextView
+                    <harman.com.freelauncher.customui.RobotoRegularTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="pm"

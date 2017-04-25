@@ -13,7 +13,7 @@
         android:layout_marginTop="@dimen/dp19"
         android:src="@drawable/ic_maintenance_blue" />
 
-    <harman.com.freelauncher.customui.NSRegularTextView
+    <harman.com.freelauncher.customui.RobotoRegularTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/dp30"
@@ -34,7 +34,7 @@
         android:orientation="vertical"
         android:weightSum="1">
 
-        <harman.com.freelauncher.customui.NSRegularButton
+        <harman.com.freelauncher.customui.RobotoRegularButton
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:gravity="center"
@@ -42,7 +42,7 @@
             android:textAllCaps="false"
             android:textSize="@dimen/sp42" />
 
-        <harman.com.freelauncher.customui.NSRegularButton
+        <harman.com.freelauncher.customui.RobotoRegularButton
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_marginTop="21dp"
@@ -51,7 +51,7 @@
             android:textAllCaps="false"
             android:textSize="@dimen/sp42" />
 
-        <harman.com.freelauncher.customui.NSRegularButton
+        <harman.com.freelauncher.customui.RobotoRegularButton
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_marginTop="21dp"
@@ -60,7 +60,7 @@
             android:textAllCaps="false"
             android:textSize="@dimen/sp42" />
 
-        <harman.com.freelauncher.customui.NSRegularButton
+        <harman.com.freelauncher.customui.RobotoRegularButton
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_marginTop="21dp"
