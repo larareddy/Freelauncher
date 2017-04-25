@@ -69,7 +69,7 @@
                         android:id="@+id/nav_point_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="@dimen/dp10"
+                        android:layout_marginStart="30dp"
                         android:text="@string/stopover"
                         android:textColor="@android:color/black"
                         android:textSize="@dimen/sp42" />
@@ -124,7 +124,7 @@
                         android:id="@+id/cal_point_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="@dimen/dp10"
+                        android:layout_marginStart="@dimen/dp20"
                         android:text="Meeting 10am - 11am"
                         android:textColor="@android:color/black"
                         android:textSize="@dimen/sp42" />
