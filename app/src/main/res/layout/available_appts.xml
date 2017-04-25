@@ -20,7 +20,7 @@
         android:layout_marginTop="@dimen/dp19"
         android:layout_toEndOf="@id/maintainance"
         android:maxLines="1"
-        android:text="Available Appointments"
+        android:text="@string/available_appointments"
         android:textColor="#00689d"
         android:textSize="@dimen/sp54" />
 
@@ -30,13 +30,13 @@
         android:layout_below="@+id/maintainance"
         android:layout_marginLeft="@dimen/dp24"
         android:layout_marginRight="@dimen/dp24"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="@dimen/dp32"
         android:orientation="vertical"
         android:weightSum="1">
 
         <harman.com.freelauncher.customui.RobotoRegularButton
             android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_height="@dimen/dp80"
             android:gravity="center"
             android:text="@string/appt1"
             android:textAllCaps="false"
@@ -44,8 +44,8 @@
 
         <harman.com.freelauncher.customui.RobotoRegularButton
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_marginTop="21dp"
+            android:layout_height="@dimen/dp80"
+            android:layout_marginTop="@dimen/dp21"
             android:gravity="center"
             android:text="@string/appt2"
             android:textAllCaps="false"
@@ -53,8 +53,8 @@
 
         <harman.com.freelauncher.customui.RobotoRegularButton
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_marginTop="21dp"
+            android:layout_height="@dimen/dp80"
+            android:layout_marginTop="@dimen/dp21"
             android:gravity="center"
             android:text="@string/appt3"
             android:textAllCaps="false"
@@ -62,8 +62,8 @@
 
         <harman.com.freelauncher.customui.RobotoRegularButton
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_marginTop="21dp"
+            android:layout_height="@dimen/dp80"
+            android:layout_marginTop="@dimen/dp21"
             android:gravity="center"
             android:text="@string/remind"
             android:textAllCaps="false"

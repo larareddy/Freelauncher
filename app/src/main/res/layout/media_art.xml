@@ -6,44 +6,44 @@
         android:id="@+id/aha_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="19dp"
+        android:layout_marginStart="@dimen/dp24"
+        android:layout_marginTop="@dimen/dp19"
         android:src="@drawable/aha_logo"/>
     <harman.com.freelauncher.customui.RobotoRegularTextView
-        android:id="@+id/text22"
+        android:id="@+id/today_hits"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Today's Hits"
         android:textColor="#ffffff"
-        android:textSize="54sp"
+        android:textSize="@dimen/sp54"
         android:gravity="center"
-        android:layout_marginTop="49dp"/>
+        android:layout_marginTop="@dimen/dp49"/>
     <ImageView
-        android:id="@+id/album1"
+        android:id="@+id/album_art"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/text22"
+        android:layout_below="@+id/today_hits"
         android:src="@drawable/default_album_art"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="@dimen/dp16"/>
     <harman.com.freelauncher.customui.RobotoRegularTextView
-        android:id="@+id/artist"
+        android:id="@+id/album"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/album1"
-        android:text="Something Only I Can See"
+        android:layout_below="@+id/album_art"
+        android:text="@string/something_only_i_can_see"
         android:textColor="#ffffff"
-        android:textSize="54sp"
+        android:textSize="@dimen/sp54"
         android:gravity="center"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="@dimen/dp20"/>
     <harman.com.freelauncher.customui.RobotoRegularTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="This American Life"
-        android:layout_below="@+id/artist"
+        android:text="@string/this_american_life"
+        android:layout_below="@+id/album"
         android:textColor="#ffffff"
-        android:textSize="34sp"
+        android:textSize="@dimen/sp34"
         android:gravity="center"
-        android:layout_marginTop="12dp"/>
+        android:layout_marginTop="@dimen/dp12"/>
 
 
    <LinearLayout
@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/dp24"
         android:layout_marginRight="@dimen/dp24"
-        android:layout_marginTop="605dp"
+        android:layout_marginTop="@dimen/dp605"
         android:background="@android:color/white"
         android:orientation="vertical">
 
@@ -72,8 +72,8 @@
 
             <ImageView
                 android:id="@+id/previous_icon"
-                android:layout_width="54dp"
-                android:layout_height="54dp"
+                android:layout_width="@dimen/dp54"
+                android:layout_height="@dimen/dp54"
                 android:layout_alignParentStart="true"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
@@ -91,8 +91,8 @@
 
             <ImageView
                 android:id="@+id/next_icon"
-                android:layout_width="54dp"
-                android:layout_height="54dp"
+                android:layout_width="@dimen/dp54"
+                android:layout_height="@dimen/dp54"
                 android:layout_alignParentEnd="true"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"

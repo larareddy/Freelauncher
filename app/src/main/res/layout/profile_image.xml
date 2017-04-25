@@ -8,7 +8,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="139dp"
+        android:layout_marginTop="@dimen/dp139"
         android:src="@drawable/profile_tim">
 
     </ImageView>
@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="501dp"
+        android:layout_marginTop="@dimen/dp501"
         android:text="Hi,Tim"
         android:textColor="#ffffff"
         android:textSize="@dimen/sp74"/>

@@ -7,21 +7,21 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="105dp">
+        android:layout_marginTop="@dimen/dp105">
 
         <ImageView
             android:id="@+id/caller_image"
-            android:layout_width="171dp"
-            android:layout_height="171dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginStart="135dp"
+            android:layout_width="@dimen/dp171"
+            android:layout_height="@dimen/dp171"
+            android:layout_marginTop="@dimen/dp20"
+            android:layout_marginStart="@dimen/dp135"
             android:src="@drawable/default_caller_id" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginStart="45dp"
+            android:layout_marginStart="@dimen/dp45"
             android:layout_toEndOf="@+id/caller_image"
             android:orientation="vertical">
 
@@ -31,7 +31,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="start"
-                android:text="Jeanne Anderson"
+                android:text="@string/caller_name"
                 android:textColor="#ffffff"
                 android:textSize="@dimen/sp60" />
 
@@ -39,7 +39,7 @@
                 android:id="@+id/Caller_number_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="9dp"
+                android:layout_marginTop="@dimen/dp9"
                 android:text="(313)654-7446"
                 android:textColor="#ffffff"
                 android:textSize="@dimen/sp55" />
@@ -48,7 +48,7 @@
                 android:id="@+id/Caller_numbers_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="9dp"
+                android:layout_marginTop="@dimen/dp9"
                 android:textColor="#ffffff"
                 android:text="10:46:00"
                 android:textSize="@dimen/sp40" />
@@ -56,12 +56,12 @@
     </RelativeLayout>
 <android.support.v7.widget.CardView
     android:layout_width="match_parent"
-    android:layout_height="80dp"
-    app:cardCornerRadius="2dp"
-    android:layout_marginLeft="130dp"
-    android:layout_marginRight="130dp"
-    android:layout_marginTop="45dp"
-    app:cardElevation="15dp">
+    android:layout_height="@dimen/dp80"
+    app:cardCornerRadius="@dimen/dp2"
+    android:layout_marginLeft="@dimen/dp130"
+    android:layout_marginRight="@dimen/dp130"
+    android:layout_marginTop="@dimen/dp45"
+    app:cardElevation="10dp">
     <LinearLayout
         android:id="@+id/hangup_layout"
         android:layout_width="match_parent"
@@ -78,10 +78,10 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="196dp"
+        android:layout_height="@dimen/dp196"
         android:layout_marginLeft="@dimen/dp24"
         android:layout_marginRight="@dimen/dp24"
-        android:layout_marginTop="99dp"
+        android:layout_marginTop="@dimen/dp99"
         android:background="@drawable/phone_card">
 
 
@@ -92,9 +92,9 @@
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
             android:layout_gravity="center_horizontal"
-            android:layout_marginStart="114dp"
-            android:layout_marginTop="36dp"
-            android:drawablePadding="12dp"
+            android:layout_marginStart="@dimen/dp114"
+            android:layout_marginTop="@dimen/dp36"
+            android:drawablePadding="@dimen/dp12"
             android:drawableTop="@drawable/ic_call_transfer"
             android:gravity="center"
             android:text="@string/transfer"
@@ -108,7 +108,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="@dimen/dp36"
             android:drawablePadding="@dimen/dp12"
             android:drawableTop="@drawable/ic_call_mute"
             android:gravity="center"
@@ -123,8 +123,8 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:layout_gravity="center_horizontal"
-            android:layout_marginEnd="127dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginEnd="@dimen/dp127"
+            android:layout_marginTop="@dimen/dp36"
             android:drawablePadding="@dimen/dp12"
             android:drawableTop="@drawable/ic_keypad"
             android:gravity="center"

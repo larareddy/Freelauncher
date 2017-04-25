@@ -4,8 +4,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp18"
-        android:orientation="vertical"
-        android:visibility="visible">
+        android:orientation="vertical">
 
         <ImageView
                 android:layout_width="wrap_content"
@@ -16,9 +15,9 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dp210"
-                android:layout_marginTop="13dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                android:layout_marginTop="@dimen/dp13"
+                android:layout_marginLeft="@dimen/dp24"
+                android:layout_marginRight="@dimen/dp24"
                 android:background="#ffffff">
 
                 <ImageView
@@ -34,9 +33,9 @@
                     android:id="@+id/nav_title_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="125dp"
-                    android:layout_marginTop="32dp"
-                    android:text="Microsoft Research"
+                    android:layout_marginStart="@dimen/dp125"
+                    android:layout_marginTop="@dimen/dp32"
+                    android:text="@string/way_point"
                     android:textColor="#0487a5"
                     android:textSize="@dimen/sp54" />
 
@@ -45,7 +44,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/nav_title_text"
-                    android:layout_marginStart="125dp"
+                    android:layout_marginStart="@dimen/dp125"
                     android:orientation="horizontal">
 
                     <harman.com.freelauncher.customui.RobotoBoldTextView
@@ -71,15 +70,15 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dp1"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                android:layout_marginLeft="@dimen/dp24"
+                android:layout_marginRight="@dimen/dp24"
                 android:background="@drawable/divder" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dp210"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                android:layout_marginLeft="@dimen/dp24"
+                android:layout_marginRight="@dimen/dp24"
                 android:background="#ffffff">
 
                 <ImageView
@@ -95,9 +94,9 @@
                     android:id="@+id/title_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="125dp"
-                    android:layout_marginTop="32dp"
-                    android:text="Building 99"
+                    android:layout_marginStart="@dimen/dp125"
+                    android:layout_marginTop="@dimen/dp32"
+                    android:text="@string/destination"
                     android:textColor="#0487a5"
                     android:textSize="@dimen/sp54" />
 
@@ -105,7 +104,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/title_text"
-                    android:layout_marginStart="125dp"
+                    android:layout_marginStart="@dimen/dp125"
                     android:orientation="horizontal">
 
                     <harman.com.freelauncher.customui.RobotoBoldTextView
@@ -131,9 +130,9 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="130dp"
-            android:layout_marginRight="130dp"
-            android:layout_marginTop="29dp"
+            android:layout_marginLeft="@dimen/dp130"
+            android:layout_marginRight="@dimen/dp130"
+            android:layout_marginTop="@dimen/dp29"
             android:background="@drawable/green_btn"
             android:text="@string/go"
             android:gravity="center"

@@ -11,15 +11,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="@dimen/dp18"
         android:id="@+id/profile_image"
         android:src="@drawable/default_persona_id_small" />
 
     <include
         layout="@layout/appointment_confirmed"
         android:layout_width="match_parent"
-        android:layout_height="530dp"
-        android:layout_marginTop="13dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp13"
         android:layout_below="@+id/profile_image">
 
     </include>

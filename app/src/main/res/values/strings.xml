@@ -5,12 +5,16 @@
     <string name="mute">Mute</string>
     <string name="keypad">Keypad</string>
     <string name="stopover">Stopover</string>
+    <string name="way_point">Microsoft Research</string>
+    <string name="destination">Building 99</string>
     <string name="todays_hits">Todays Hits</string>
     <string name="something_only_i_can_see">Something Only I Can See</string>
     <string name="this_american_life">This American Life</string>
     <string name="_5_min">5 min</string>
     <string name="_15_min">15 min</string>
     <string name="ok">OK</string>
+    <string name="available_appointments">Available Appointments</string>
+    <string name="appointment_confirmed">Appointment Confirmed</string>
     <string name="appt1">Today\u0020\u0020| 6:30pm</string>
     <string name="appt2">May 29 | 8:00am</string>
     <string name="appt3">June 8\u0020\u0020| 2:00pm</string>
@@ -20,7 +24,11 @@
     <string name="dest">BigRoad St,Auburn Hills</string>
     <string name="distance">500 ft</string>
     <string name="dest_street">Broadway St.</string>
+    <string name="destination_street">Broadway Street</string>
     <string name="dest_mins">36min</string>
     <string name="dest_miles">2.1mi</string>
     <string name="dest_time">10:07pm</string>
+    <string name="caller_name">Jeanne Anderson</string>
+
+
 </resources>
