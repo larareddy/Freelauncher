@@ -9,7 +9,7 @@
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapview"
         android:layout_width="fill_parent"
-        android:layout_height="547dp" />
+        android:layout_height="@dimen/dp547" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
         android:background="@drawable/grey_navigation_card">
 
         <harman.com.freelauncher.customui.RobotoRegularTextView
-            android:id="@+id/bigroad"
+            android:id="@+id/big_road"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

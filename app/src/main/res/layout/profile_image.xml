@@ -20,5 +20,5 @@
         android:layout_marginTop="@dimen/dp501"
         android:text="Hi,Tim"
         android:textColor="#ffffff"
-        android:textSize="@dimen/sp74"/>
+        android:textSize="@dimen/sp74" />
 </RelativeLayout>

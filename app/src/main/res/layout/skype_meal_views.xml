@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -13,8 +14,8 @@
             android:id="@+id/caller_image"
             android:layout_width="@dimen/dp171"
             android:layout_height="@dimen/dp171"
-            android:layout_marginTop="@dimen/dp20"
             android:layout_marginStart="@dimen/dp135"
+            android:layout_marginTop="@dimen/dp20"
             android:src="@drawable/default_caller_id" />
 
         <LinearLayout
@@ -49,39 +50,41 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dp9"
-                android:textColor="#ffffff"
                 android:text="10:46:00"
+                android:textColor="#ffffff"
                 android:textSize="@dimen/sp40" />
         </LinearLayout>
     </RelativeLayout>
-<android.support.v7.widget.CardView
-    android:layout_width="match_parent"
-    android:layout_height="@dimen/dp80"
-    app:cardCornerRadius="@dimen/dp2"
-    android:layout_marginLeft="@dimen/dp130"
-    android:layout_marginRight="@dimen/dp130"
-    android:layout_marginTop="@dimen/dp45"
-    app:cardElevation="10dp">
-    <LinearLayout
-        android:id="@+id/hangup_layout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/red_btn"
-        android:gravity="center">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_end_call" />
-    </LinearLayout>
-</android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp80"
+        android:layout_marginLeft="@dimen/dp130"
+        android:layout_marginRight="@dimen/dp130"
+        android:layout_marginTop="@dimen/dp45"
+        app:cardCornerRadius="@dimen/dp2"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:id="@+id/hangup_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/red_btn"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_end_call" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp196"
         android:layout_marginLeft="@dimen/dp24"
         android:layout_marginRight="@dimen/dp24"
-        android:layout_marginTop="@dimen/dp99"
+        android:layout_marginTop="@dimen/dp80"
         android:background="@drawable/phone_card">
 
 

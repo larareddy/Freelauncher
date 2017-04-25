@@ -54,7 +54,6 @@
     <color name="heading_font_color">#00689D</color>
     <color name="distance_font_color">#1FA053</color>
     <color name="meeting_font_color">#87000000</color>
-
     <color name="widget_color">#00689D</color>
 
 </resources>

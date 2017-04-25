@@ -4,142 +4,144 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="@dimen/dp18"
-                android:src="@drawable/default_persona_id_small" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp18"
+        android:src="@drawable/default_persona_id_small" />
 
+
+    <LinearLayout
+        android:id="@+id/route_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp24"
+        android:layout_marginRight="@dimen/dp24"
+        android:layout_marginTop="@dimen/dp13"
+        android:background="@drawable/navigation_large_card"
+        android:orientation="vertical">
 
         <LinearLayout
-            android:id="@+id/route_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dp13"
-            android:layout_marginLeft="@dimen/dp24"
-            android:layout_marginRight="@dimen/dp24"
-            android:background="@drawable/navigation_large_card"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <RelativeLayout
-                    android:layout_width="@dimen/dp254"
-                    android:layout_height="@dimen/dp254"
-                    android:layout_marginLeft="@dimen/dp21"
-                    android:layout_marginTop="@dimen/dp39"
-                    android:background="@drawable/route_indicator_background">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:src="@drawable/route_indicator_fill" />
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentBottom="true"
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginBottom="@dimen/dp30"
-                        android:paddingLeft="@dimen/dp20"
-                        android:src="@drawable/arrow_rt" />
-                </RelativeLayout>
-
-                <harman.com.freelauncher.customui.RobotoRegularTextView
-                    android:id="@+id/textView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/dp58"
-                    android:layout_marginTop="@dimen/dp127"
-                    android:text="@string/distance"
-                    android:textColor="#FFFFFF"
-                    android:textSize="@dimen/sp75" />
-            </LinearLayout>
-
-            <harman.com.freelauncher.customui.RobotoRegularTextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="-15dp"
-                android:text="@string/destination_street"
-                android:textColor="#FFFFFF"
-                android:textSize="@dimen/sp90" />
             <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/dp36"
-                android:orientation="horizontal">
+                android:layout_width="@dimen/dp254"
+                android:layout_height="@dimen/dp254"
+                android:layout_marginLeft="@dimen/dp21"
+                android:layout_marginTop="@dimen/dp39"
+                android:background="@drawable/route_indicator_background">
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginStart="@dimen/dp19">
-
-                    <harman.com.freelauncher.customui.RobotoBoldTextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="36"
-                        android:textColor="#FFFFFF"
-                        android:textSize="@dimen/sp60" />
-
-                    <harman.com.freelauncher.customui.RobotoRegularTextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text=" min"
-                        android:textColor="#FFFFFF"
-                        android:textSize="@dimen/sp50" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/mile_layout"
+                <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:gravity="center_horizontal">
+                    android:src="@drawable/route_indicator_fill" />
 
-                    <harman.com.freelauncher.customui.RobotoRegularTextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="2.1"
-                        android:textColor="#FFFFFF"
-                        android:textSize="@dimen/sp60" />
-
-                    <harman.com.freelauncher.customui.RobotoRegularTextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="mi"
-                        android:textColor="#FFFFFF"
-                        android:textSize="@dimen/sp50" />
-                </LinearLayout>
-                <LinearLayout
+                <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginEnd="@dimen/dp19">
-
-                    <harman.com.freelauncher.customui.RobotoRegularTextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="10:07"
-                        android:textColor="#FFFFFF"
-                        android:textSize="@dimen/sp60" />
-
-                    <harman.com.freelauncher.customui.RobotoRegularTextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="pm"
-                        android:textColor="#FFFFFF"
-                        android:textSize="@dimen/sp50" />
-                </LinearLayout>
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/dp30"
+                    android:paddingLeft="@dimen/dp20"
+                    android:src="@drawable/arrow_rt" />
             </RelativeLayout>
+
+            <harman.com.freelauncher.customui.RobotoRegularTextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp58"
+                android:layout_marginTop="@dimen/dp127"
+                android:text="@string/distance"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/sp75" />
         </LinearLayout>
+
+        <harman.com.freelauncher.customui.RobotoRegularTextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-15dp"
+            android:text="@string/destination_street"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/sp90" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp36"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dp19">
+
+                <harman.com.freelauncher.customui.RobotoBoldTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="36"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/sp60" />
+
+                <harman.com.freelauncher.customui.RobotoRegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" min"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/sp50" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mile_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal">
+
+                <harman.com.freelauncher.customui.RobotoRegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/sp60" />
+
+                <harman.com.freelauncher.customui.RobotoRegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mi"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/sp50" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp19">
+
+                <harman.com.freelauncher.customui.RobotoRegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10:07"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/sp60" />
+
+                <harman.com.freelauncher.customui.RobotoRegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="pm"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/sp50" />
+            </LinearLayout>
+        </RelativeLayout>
     </LinearLayout>
+</LinearLayout>

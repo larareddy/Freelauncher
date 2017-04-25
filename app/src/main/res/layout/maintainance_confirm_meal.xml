@@ -3,24 +3,23 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginLeft="@dimen/dp24"
-    android:layout_marginRight="@dimen/dp24"
-    >
+    android:layout_marginRight="@dimen/dp24">
 
 
     <ImageView
+        android:id="@+id/profile_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/dp18"
-        android:id="@+id/profile_image"
         android:src="@drawable/default_persona_id_small" />
 
     <include
         layout="@layout/appointment_confirmed"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="@dimen/dp13"
-        android:layout_below="@+id/profile_image">
+        android:layout_below="@+id/profile_image"
+        android:layout_marginTop="@dimen/dp13">
 
     </include>
 

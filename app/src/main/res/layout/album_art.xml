@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
 
     <harman.com.freelauncher.customui.RobotoRegularTextView
-    android:id="@+id/App_title_text"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/todays_hits"
+        android:id="@+id/App_title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/todays_hits"
+        android:textAlignment="center"
         android:textColor="@android:color/white"
-    android:textAlignment="center"
-    android:textSize="@dimen/sp54" />
+        android:textSize="@dimen/sp54" />
 
-<ImageView
-    android:id="@+id/albumart"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="@dimen/dp16"
-    android:layout_gravity="center_horizontal"
-    android:src="@drawable/default_album_art" />
+    <ImageView
+        android:id="@+id/albumart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp16"
+        android:src="@drawable/default_album_art" />
 
     <harman.com.freelauncher.customui.RobotoRegularTextView
-    android:id="@+id/text1"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="@dimen/dp27"
-    android:text="@string/something_only_i_can_see"
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp27"
+        android:text="@string/something_only_i_can_see"
+        android:textAlignment="center"
         android:textColor="@android:color/white"
-    android:textAlignment="center"
-    android:textSize="@dimen/sp54" />
+        android:textSize="@dimen/sp54" />
 
     <harman.com.freelauncher.customui.RobotoRegularTextView
-    android:id="@+id/text2"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="@dimen/dp14"
-    android:text="@string/this_american_life"
-    android:textAlignment="center"
-    android:textColor="@android:color/white"
-    android:textSize="@dimen/sp34" />
-    </LinearLayout>
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp14"
+        android:text="@string/this_american_life"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sp34" />
+</LinearLayout>
