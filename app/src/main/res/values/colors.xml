@@ -46,6 +46,9 @@
     <color name="colorLightGray">#b9bbbd</color>
     <color name="colorActiveButton">#011B26</color>
     <color name="colorTrans">#00000000</color>
+    <color name="colorBlue">#0487A5</color>
+    <color name="colorGreen">#176637</color>
+    <color name="colorProgress">#E08B19</color>
         <!-- FCA -->
     <color name="colorSyncButton">#2A94C0</color>
     <color name="colorComfortSeatBg">#1399d6</color>
@@ -55,5 +58,6 @@
     <color name="distance_font_color">#1FA053</color>
     <color name="meeting_font_color">#87000000</color>
     <color name="widget_color">#00689D</color>
+    <color name="colorBlack">#000000</color>
 
 </resources>

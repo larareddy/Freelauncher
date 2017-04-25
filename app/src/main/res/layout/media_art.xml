@@ -19,7 +19,7 @@
         android:layout_marginTop="@dimen/dp49"
         android:gravity="center"
         android:text="Today's Hits"
-        android:textColor="#ffffff"
+        android:textColor="@android:color/white"
         android:textSize="@dimen/sp54" />
 
     <ImageView
@@ -38,7 +38,7 @@
         android:layout_marginTop="@dimen/dp20"
         android:gravity="center"
         android:text="@string/something_only_i_can_see"
-        android:textColor="#ffffff"
+        android:textColor="@android:color/white"
         android:textSize="@dimen/sp54" />
 
     <harman.com.freelauncher.customui.RobotoRegularTextView
@@ -48,7 +48,7 @@
         android:layout_marginTop="@dimen/dp12"
         android:gravity="center"
         android:text="@string/this_american_life"
-        android:textColor="#ffffff"
+        android:textColor="@android:color/white"
         android:textSize="@dimen/sp34" />
 
 
@@ -67,7 +67,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="-6dp"
             android:progress="50"
-            android:progressTint="#E08B19" />
+            android:progressTint="@color/colorProgress" />
 
         <RelativeLayout
             android:layout_width="match_parent"

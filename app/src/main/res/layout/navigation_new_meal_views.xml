@@ -18,7 +18,7 @@
                 android:layout_marginTop="@dimen/dp13"
                 android:layout_marginLeft="@dimen/dp24"
                 android:layout_marginRight="@dimen/dp24"
-                android:background="#ffffff">
+                android:background="@android:color/white">
 
                 <ImageView
                     android:id="@+id/nav_iv"
@@ -36,7 +36,7 @@
                     android:layout_marginStart="@dimen/dp125"
                     android:layout_marginTop="@dimen/dp32"
                     android:text="@string/way_point"
-                    android:textColor="#0487a5"
+                    android:textColor="@color/colorBlue"
                     android:textSize="@dimen/sp54" />
 
                 <LinearLayout
@@ -52,7 +52,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/_5_min"
-                        android:textColor="#176637"
+                        android:textColor="@color/colorGreen"
                         android:textSize="@dimen/sp42" />
 
                     <harman.com.freelauncher.customui.RobotoRegularTextView
@@ -61,7 +61,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/dp10"
                         android:text="@string/stopover"
-                        android:textColor="#000000"
+                        android:textColor="@android:color/black"
                         android:textSize="@dimen/sp42" />
                 </LinearLayout>
 
@@ -79,7 +79,7 @@
                 android:layout_height="@dimen/dp210"
                 android:layout_marginLeft="@dimen/dp24"
                 android:layout_marginRight="@dimen/dp24"
-                android:background="#ffffff">
+                android:background="@android:color/white">
 
                 <ImageView
                     android:id="@+id/cal_iv"
@@ -97,7 +97,7 @@
                     android:layout_marginStart="@dimen/dp125"
                     android:layout_marginTop="@dimen/dp32"
                     android:text="@string/destination"
-                    android:textColor="#0487a5"
+                    android:textColor="@color/colorBlue"
                     android:textSize="@dimen/sp54" />
 
                 <LinearLayout
@@ -112,7 +112,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/_15_min"
-                        android:textColor="#176637"
+                        android:textColor="@color/colorGreen"
                         android:textSize="@dimen/sp42" />
 
                     <harman.com.freelauncher.customui.RobotoRegularTextView
@@ -121,7 +121,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/dp10"
                         android:text="Meeting 10am - 11am"
-                        android:textColor="#000000"
+                        android:textColor="@android:color/black"
                         android:textSize="@dimen/sp42" />
                 </LinearLayout>
             </RelativeLayout>
@@ -136,7 +136,7 @@
             android:background="@drawable/green_btn"
             android:text="@string/go"
             android:gravity="center"
-            android:textColor="#ffffff"
+            android:textColor="@android:color/white"
             android:textSize="@dimen/sp70" />
     </LinearLayout>
 

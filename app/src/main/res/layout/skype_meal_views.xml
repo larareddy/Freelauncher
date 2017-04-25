@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="start"
                 android:text="@string/caller_name"
-                android:textColor="#ffffff"
+                android:textColor="@android:color/white"
                 android:textSize="@dimen/sp60" />
 
             <harman.com.freelauncher.customui.RobotoRegularTextView
@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dp9"
                 android:text="(313)654-7446"
-                android:textColor="#ffffff"
+                android:textColor="@android:color/white"
                 android:textSize="@dimen/sp55" />
 
             <harman.com.freelauncher.customui.RobotoRegularTextView
@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dp9"
                 android:text="10:46:00"
-                android:textColor="#ffffff"
+                android:textColor="@android:color/white"
                 android:textSize="@dimen/sp40" />
         </LinearLayout>
     </RelativeLayout>
@@ -63,7 +63,7 @@
         android:layout_marginRight="@dimen/dp130"
         android:layout_marginTop="@dimen/dp45"
         app:cardCornerRadius="@dimen/dp2"
-        app:cardElevation="10dp">
+        app:cardElevation="5dp">
 
         <LinearLayout
             android:id="@+id/hangup_layout"
@@ -101,7 +101,7 @@
             android:drawableTop="@drawable/ic_call_transfer"
             android:gravity="center"
             android:text="@string/transfer"
-            android:textColor="#000000"
+            android:textColor="@android:color/black"
             android:textSize="@dimen/sp30" />
 
         <harman.com.freelauncher.customui.RobotoRegularTextView
@@ -116,7 +116,7 @@
             android:drawableTop="@drawable/ic_call_mute"
             android:gravity="center"
             android:text="@string/mute"
-            android:textColor="#000000"
+            android:textColor="@android:color/black"
             android:textSize="@dimen/sp30" />
 
         <harman.com.freelauncher.customui.RobotoRegularTextView
@@ -132,7 +132,7 @@
             android:drawableTop="@drawable/ic_keypad"
             android:gravity="center"
             android:text="@string/keypad"
-            android:textColor="#000000"
+            android:textColor="@android:color/black"
             android:textSize="@dimen/sp30" />
     </RelativeLayout>
 </LinearLayout>

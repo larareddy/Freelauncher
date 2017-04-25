@@ -21,7 +21,7 @@
         android:gravity="center"
         android:maxLines="1"
         android:text="@string/appointment_confirmed"
-        android:textColor="#0487A5"
+        android:textColor="@color/colorBlue"
         android:textSize="@dimen/sp54" />
 
 
@@ -39,7 +39,7 @@
             android:layout_marginTop="@dimen/dp147"
             android:gravity="center"
             android:text="@string/appt2"
-            android:textColor="#000000"
+            android:textColor="@android:color/black"
             android:textSize="@dimen/sp60" />
 
         <harman.com.freelauncher.customui.RobotoRegularTextView
@@ -49,6 +49,7 @@
             android:layout_marginTop="@dimen/dp19"
             android:gravity="center"
             android:text="Rairdon's Chrysler of Kirkland"
+            android:textColor="@android:color/black"
             android:textSize="@dimen/sp42" />
 
         <harman.com.freelauncher.customui.RobotoRegularTextView
@@ -58,6 +59,7 @@
             android:layout_marginTop="@dimen/dp2"
             android:gravity="center"
             android:text="@string/street"
+            android:textColor="@android:color/black"
             android:textSize="@dimen/sp42" />
 
     </LinearLayout>
@@ -70,6 +72,7 @@
         android:layout_marginRight="@dimen/dp24"
         android:layout_marginTop="@dimen/dp429"
         android:text="@string/ok"
+        android:textColor="@android:color/black"
         android:textSize="@dimen/sp42" />
 
 </RelativeLayout>

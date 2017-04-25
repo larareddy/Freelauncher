@@ -30,7 +30,7 @@
             <RelativeLayout
                 android:layout_width="@dimen/dp254"
                 android:layout_height="@dimen/dp254"
-                android:layout_marginLeft="@dimen/dp21"
+                android:layout_marginStart="@dimen/dp21"
                 android:layout_marginTop="@dimen/dp39"
                 android:background="@drawable/route_indicator_background">
 
@@ -57,7 +57,7 @@
                 android:layout_marginStart="@dimen/dp58"
                 android:layout_marginTop="@dimen/dp127"
                 android:text="@string/distance"
-                android:textColor="#FFFFFF"
+                android:textColor="@android:color/white"
                 android:textSize="@dimen/sp75" />
         </LinearLayout>
 
@@ -68,7 +68,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="-15dp"
             android:text="@string/destination_street"
-            android:textColor="#FFFFFF"
+            android:textColor="@android:color/white"
             android:textSize="@dimen/sp90" />
 
         <RelativeLayout
@@ -88,14 +88,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="36"
-                    android:textColor="#FFFFFF"
+                    android:textColor="@android:color/white"
                     android:textSize="@dimen/sp60" />
 
                 <harman.com.freelauncher.customui.RobotoRegularTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text=" min"
-                    android:textColor="#FFFFFF"
+                    android:textColor="@android:color/white"
                     android:textSize="@dimen/sp50" />
             </LinearLayout>
 
@@ -110,14 +110,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="2.1"
-                    android:textColor="#FFFFFF"
+                    android:textColor="@android:color/white"
                     android:textSize="@dimen/sp60" />
 
                 <harman.com.freelauncher.customui.RobotoRegularTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="mi"
-                    android:textColor="#FFFFFF"
+                    android:textColor="@android:color/white"
                     android:textSize="@dimen/sp50" />
             </LinearLayout>
 
@@ -132,14 +132,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="10:07"
-                    android:textColor="#FFFFFF"
+                    android:textColor="@android:color/white"
                     android:textSize="@dimen/sp60" />
 
                 <harman.com.freelauncher.customui.RobotoRegularTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="pm"
-                    android:textColor="#FFFFFF"
+                    android:textColor="@android:color/white"
                     android:textSize="@dimen/sp50" />
             </LinearLayout>
         </RelativeLayout>
