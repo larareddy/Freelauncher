@@ -4,11 +4,13 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <include layout="@layout/navigationb_meal"></include>
+    <include layout="@layout/navigation_address"></include>
 
-    <com.google.android.gms.maps.MapView
+    <ImageView
         android:id="@+id/mapview"
         android:layout_width="fill_parent"
+        android:src="@drawable/maps"
+        android:scaleType="fitXY"
         android:layout_height="@dimen/dp547" />
 
     <LinearLayout

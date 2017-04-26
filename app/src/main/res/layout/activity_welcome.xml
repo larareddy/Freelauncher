@@ -21,7 +21,7 @@
             homescreen:cardElevation="5dp"
             homescreen:cardMaxElevation="10dp">
 
-            <include layout="@layout/navigation_new_meal_views" />
+            <include layout="@layout/listening" />
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
@@ -33,7 +33,7 @@
             homescreen:cardElevation="5dp"
             homescreen:cardMaxElevation="10dp">
 
-            <include layout="@layout/media_art" />
+            <include layout="@layout/navigation_mapvie_meal" />
         </android.support.v7.widget.CardView>
     </LinearLayout>
 </LinearLayout>
