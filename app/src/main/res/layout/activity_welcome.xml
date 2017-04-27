@@ -21,7 +21,7 @@
             app:cardElevation="5dp"
             app:cardMaxElevation="10dp">
 
-            <include layout="@layout/navigation_meal" />
+            <include layout="@layout/skype_meal_views" />
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
