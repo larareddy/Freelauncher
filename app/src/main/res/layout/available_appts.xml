@@ -33,14 +33,12 @@
         android:layout_marginLeft="@dimen/dp24"
         android:layout_marginRight="@dimen/dp24"
         android:layout_marginTop="@dimen/dp32"
-        android:orientation="vertical"
-        android:weightSum="1">
+        android:orientation="vertical">
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardCornerRadius="2dp"
-            app:cardElevation="3dp"
-            app:cardMaxElevation="5dp"
+            app:cardElevation="4dp"
             >
 
         <harman.com.freelauncher.customui.RobotoRegularButton
@@ -52,40 +50,61 @@
             android:textAllCaps="false"
             android:textSize="@dimen/sp42" />
     </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="2dp"
+            android:layout_marginTop="21dp"
+            app:cardElevation="4dp"
+            >
 
 
 
         <harman.com.freelauncher.customui.RobotoRegularButton
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp80"
-            android:layout_marginTop="@dimen/dp21"
             android:gravity="center"
             android:background="@drawable/maintenance_btn"
             android:text="@string/appt2"
             android:textAllCaps="false"
             android:textSize="@dimen/sp42" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="2dp"
+            android:layout_marginTop="21dp"
+            app:cardElevation="4dp"
+            >
 
 
         <harman.com.freelauncher.customui.RobotoRegularButton
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp80"
-            android:layout_marginTop="@dimen/dp21"
             android:gravity="center"
             android:background="@drawable/maintenance_btn"
             android:text="@string/appt3"
             android:textAllCaps="false"
             android:textSize="@dimen/sp42" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="2dp"
+            android:layout_marginTop="21dp"
+            app:cardElevation="4dp"
+            >
 
         <harman.com.freelauncher.customui.RobotoRegularButton
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp80"
-            android:layout_marginTop="@dimen/dp21"
             android:gravity="center"
             android:text="@string/remind"
             android:background="@drawable/maintenance_btn"
             android:textAllCaps="false"
             android:textSize="@dimen/sp42"
             android:textStyle="normal" />
+    </android.support.v7.widget.CardView>
     </LinearLayout>
 
 </RelativeLayout>

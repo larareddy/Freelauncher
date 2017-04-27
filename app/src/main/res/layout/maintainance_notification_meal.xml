@@ -19,7 +19,7 @@
     android:layout_height="530dp"
     android:layout_below="@+id/profile_image"
     android:layout_marginTop="13dp"
-    app:cardElevation="50sp">
+    app:cardElevation="35dp">
 
     <include
         layout="@layout/available_appts"

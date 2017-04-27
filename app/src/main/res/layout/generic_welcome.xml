@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/dp139"
-        android:src="@drawable/profile_tim">
+        android:src="@drawable/default_persona_id_large">
 
     </ImageView>
 
@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/dp57"
-        android:text="@string/profile_name"
+        android:text="Welcome"
         android:textColor="@android:color/white"
         android:textSize="@dimen/sp74" />
 
