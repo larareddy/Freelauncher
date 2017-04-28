@@ -95,13 +95,17 @@
                 android:layout_marginStart="@dimen/dp112"
                 android:src="@drawable/ic_skip_previous" />
 
-            <ImageView
-                android:id="@+id/play_icon"
+            <ToggleButton
+                android:id="@+id/toggle"
                 android:layout_width="@dimen/dp101"
                 android:layout_height="@dimen/dp101"
+                android:background="@drawable/play_pause"
+                android:textOff=""
+                android:textOn=""
+                android:focusable="false"
+                android:focusableInTouchMode="false"
                 android:layout_centerHorizontal="true"
-                android:layout_centerVertical="true"
-                android:src="@drawable/ic_play" />
+                android:layout_centerVertical="true" />
 
             <ImageView
                 android:id="@+id/next_icon"

@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/dp139"
+        android:layout_marginTop="24dp"
         android:orientation="horizontal">
 
         <android.support.v7.widget.CardView
@@ -21,7 +21,7 @@
             app:cardElevation="5dp"
             app:cardMaxElevation="10dp">
 
-            <include layout="@layout/maintainance_confirm_meal" />
+            <include layout="@layout/maintainance_notification_meal" />
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
