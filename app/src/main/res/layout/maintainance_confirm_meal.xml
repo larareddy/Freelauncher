@@ -16,11 +16,13 @@
         android:src="@drawable/default_persona_id_small" />
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="530dp"
-        android:layout_below="@+id/profile_image"
-        android:layout_marginTop="13dp"
-        app:cardElevation="35dp">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="205dp"
+        app:cardElevation="6dp"
+        app:cardUseCompatPadding="true">
     <include
+        android:layout_height="530dp"
+        android:layout_width="match_parent"
         layout="@layout/appointment_confirmed"
         >
 

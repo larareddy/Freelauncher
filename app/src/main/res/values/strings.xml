@@ -17,7 +17,7 @@
     <string name="ok">OK</string>
     <string name="available_appointments">Available Appointments</string>
     <string name="appointment_confirmed">Appointment Confirmed</string>
-    <string name="appt1">Today\u0020\u0020| 6:30pm</string>
+    <string name="appt1"> Today\u0020\u0020| 6:30pm</string>
     <string name="appt2">May 29 | 8:00am</string>
     <string name="appt3">June 8\u0020\u0020| 2:00pm</string>
     <string name="remind">Remind me later</string>

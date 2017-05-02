@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardCornerRadius="2dp"
-            app:cardElevation="5dp"
+            app:cardElevation="7dp"
             >
 
         <harman.com.freelauncher.customui.RobotoRegularButton
@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             app:cardCornerRadius="2dp"
             android:layout_marginTop="21dp"
-            app:cardElevation="5dp"
+            app:cardElevation="7dp"
             >
 
 
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             app:cardCornerRadius="2dp"
             android:layout_marginTop="21dp"
-            app:cardElevation="5dp"
+            app:cardElevation="7dp"
             >
 
 
@@ -92,7 +92,7 @@
             android:layout_height="wrap_content"
             app:cardCornerRadius="2dp"
             android:layout_marginTop="21dp"
-            app:cardElevation="5dp"
+            app:cardElevation="7dp"
             >
 
         <harman.com.freelauncher.customui.RobotoRegularButton

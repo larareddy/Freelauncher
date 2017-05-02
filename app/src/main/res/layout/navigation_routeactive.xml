@@ -18,7 +18,7 @@
     android:layout_marginRight="24dp"
     android:layout_marginTop="13dp"
     app:cardElevation="5dp"
-    >
+    app:cardUseCompatPadding="true">
 
     <LinearLayout
         android:id="@+id/route_layout"
