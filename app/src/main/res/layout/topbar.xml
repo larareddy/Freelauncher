@@ -37,11 +37,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="@dimen/dp25"
         android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dp25"
         android:layout_toStartOf="@+id/bluetooth"
-        android:text="12:32"
         android:background="@color/colorPrimaryDark"
+        android:text="12:32"
         android:textColor="@android:color/white"
 
         android:textSize="@dimen/dp62" />

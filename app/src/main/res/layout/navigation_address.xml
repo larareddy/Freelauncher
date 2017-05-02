@@ -28,8 +28,8 @@
         android:id="@+id/broadway"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/dp8"
         android:layout_marginStart="345dp"
+        android:layout_marginTop="@dimen/dp8"
         android:text="@string/dest_street"
         android:textColor="@android:color/white"
         android:textSize="@dimen/sp60" />
@@ -38,8 +38,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/broadway"
-        android:layout_marginTop="@dimen/dp11"
         android:layout_marginStart="@dimen/dp190"
+        android:layout_marginTop="@dimen/dp11"
         android:orientation="horizontal">
 
         <harman.com.freelauncher.customui.RobotoBoldTextView

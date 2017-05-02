@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_marginLeft="@dimen/dp24"
     android:layout_marginRight="@dimen/dp24">
 
@@ -14,19 +14,20 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/dp18"
         android:src="@drawable/default_persona_id_small" />
+
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="205dp"
         app:cardElevation="6dp"
         app:cardUseCompatPadding="true">
-    <include
-        android:layout_height="530dp"
-        android:layout_width="match_parent"
-        layout="@layout/appointment_confirmed"
-        >
 
-    </include>
-</android.support.v7.widget.CardView>
+        <include
+            layout="@layout/appointment_confirmed"
+            android:layout_width="match_parent"
+            android:layout_height="530dp">
+
+        </include>
+    </android.support.v7.widget.CardView>
 
 </RelativeLayout>
