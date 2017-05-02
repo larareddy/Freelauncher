@@ -80,7 +80,6 @@
             android:layout_height="wrap_content"
             android:background="@drawable/maintenance_btn"
             android:text="@string/ok"
-
             android:textColor="@android:color/black"
             android:textSize="@dimen/sp42" />
     </android.support.v7.widget.CardView>
