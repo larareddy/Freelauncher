@@ -26,11 +26,6 @@ public class WelcomeActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.activity_welcome);
         mealsLayout=(LinearLayout)findViewById(R.id.meals);
-
-      /*  profileImage= (ImageView) findViewById(R.id.person_id);
-        userName= (TextView) findViewById(R.id.profile_name);
-        updateProfile(R.drawable.profile_rashmi,"Rashmi");*/
-
     }
 
         private void changeMeal(int layoutRes, int mealCode) {
@@ -68,11 +63,4 @@ public class WelcomeActivity extends AppCompatActivity {
     public void appointmentConfirmed(View view) {
         changeMeal(R.layout.navigation_routeactive,Constants.LEFT_MEAL);
     }
-
-
-   /* public void updateProfile(int resourceId, String userId) {
-        if(profileImage!=null && userName!=null)
-        profileImage.setImageResource(resourceId);
-        userName.setText(""+userId);
-    }*/
 }
