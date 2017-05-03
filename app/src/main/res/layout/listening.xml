@@ -7,9 +7,9 @@
     <harman.com.freelauncher.customui.RobotoRegularTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginLeft="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp50"
         android:text="Listening..."
         android:textColor="@android:color/white"
-        android:textSize="54sp" />
+        android:textSize="@dimen/sp54" />
 </LinearLayout>

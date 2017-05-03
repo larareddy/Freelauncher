@@ -63,13 +63,13 @@
         android:layout_marginRight="@dimen/dp130"
         android:layout_marginTop="@dimen/dp45"
         app:cardCornerRadius="@dimen/dp2"
-        app:cardElevation="6dp"
+        app:cardElevation="@dimen/dp6"
         app:cardUseCompatPadding="true">
 
         <LinearLayout
             android:id="@+id/hangup_layout"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_height="@dimen/dp80"
             android:background="@drawable/red_btn"
             android:gravity="center">
 
@@ -82,12 +82,12 @@
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="196dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="24dp"
-        android:layout_marginTop="80dp"
+        android:layout_height="@dimen/dp196"
+        android:layout_marginLeft="@dimen/dp24"
+        android:layout_marginRight="@dimen/dp24"
+        android:layout_marginTop="@dimen/dp80"
         android:background="@drawable/phone_card"
-        app:cardElevation="6dp">
+        app:cardElevation="@dimen/dp6">
 
         <RelativeLayout
             android:layout_width="match_parent"

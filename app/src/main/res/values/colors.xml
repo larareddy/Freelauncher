@@ -37,6 +37,7 @@
     <color name="colorAccent">#FF4081</color>
     <color name="background">#E600233A</color>
     <color name="add_card_text_color">#129AD7</color>
+    <color name="meal_background">#0489A8</color>
 
     <color name="colorRed">#FF0000</color>
     <color name="colorWhite">#FFFFFF</color>
