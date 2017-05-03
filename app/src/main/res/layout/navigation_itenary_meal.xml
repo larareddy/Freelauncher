@@ -151,7 +151,7 @@
             android:layout_height="@dimen/dp80"
             android:background="@drawable/go_btn"
             android:gravity="center"
-            android:onClick="navigationgo"
+            android:onClick="navigationGo"
             android:text="@string/go"
             android:textColor="@android:color/white"
             android:textSize="@dimen/sp60" />

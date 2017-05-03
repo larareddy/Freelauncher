@@ -65,6 +65,7 @@
                 android:background="@drawable/maintenance_btn"
                 android:gravity="center"
                 android:text="@string/appt2"
+                android:onClick="appointmentSelected"
                 android:textAllCaps="false"
                 android:textSize="@dimen/sp42" />
         </android.support.v7.widget.CardView>
@@ -100,6 +101,7 @@
                 android:background="@drawable/maintenance_btn"
                 android:gravity="center"
                 android:text="@string/remind"
+                android:onClick="remindLater"
                 android:textAllCaps="false"
                 android:textSize="@dimen/sp42"
                 android:textStyle="normal" />

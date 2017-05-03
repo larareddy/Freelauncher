@@ -13,8 +13,8 @@ import android.widget.TextView;
 
 public class WelcomeActivity extends AppCompatActivity {
 
-    private FrameLayout frameLayout;
-ImageView profileImage;
+
+    ImageView profileImage;
     private TextView userName;
     private LinearLayout mealsLayout;
 
@@ -23,31 +23,17 @@ ImageView profileImage;
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        //getSupportActionBar().setDisplayShowTitleEnabled(false);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_welcome);
         mealsLayout=(LinearLayout)findViewById(R.id.meals);
-       // frameLayout=   (FrameLayout)findViewById(R.id.left_meal);
-       // frameLayout.removeAllViews();
-      //  profileImage= (ImageView) findViewById(R.id.person_id);
-       // userName= (TextView) findViewById(R.id.profile_name);
 
-       // RelativeLayout relativeLayout=(RelativeLayout) layoutInflater.inflate(R.layout.profile_image,null);
-      //  frameLayout.addView(relativeLayout);
-       // Window window = getWindow();
-       // window.setBackgroundDrawable(getDrawable(R.drawable.bg_city_skyline)); // avoid GPU overdraw
-//        CardsProvider.getsInstance().loadCards(this);
-//        mLauncherScreenManager = LauncherScreenManager.getInstance(this, (ViewGroup)window.getDecorView());
-//        mLauncherScreenManager.start();
-      //  updateProfile(R.drawable.profile_rashmi,"Rashmi");
+      /*  profileImage= (ImageView) findViewById(R.id.person_id);
+        userName= (TextView) findViewById(R.id.profile_name);
+        updateProfile(R.drawable.profile_rashmi,"Rashmi");*/
 
     }
 
-    public void navigationgo(View view) {
-        changeMeal(R.layout.navigation_routeactive,Constants.LEFT_MEAL);
-    }
-
-    private void changeMeal(int layoutRes, int mealCode) {
+        private void changeMeal(int layoutRes, int mealCode) {
         CardView cardView = null;
         switch (mealCode)
         {
@@ -63,10 +49,26 @@ ImageView profileImage;
         View child = getLayoutInflater().inflate(layoutRes, null);
         cardView.addView(child);
     }
-
-    public void mediaRoot(View view) {
-        changeMeal(R.layout.skype_meal_views,Constants.RIGHT_MEAL);
+    public void navigationGo(View view) {
+        changeMeal(R.layout.navigation_routeactive,Constants.LEFT_MEAL);
     }
+
+    public void transferCall(View view) {
+        changeMeal(R.layout.media_art,Constants.RIGHT_MEAL);
+    }
+
+    public void appointmentSelected(View view) {
+        changeMeal(R.layout.maintainance_confirm_meal,Constants.LEFT_MEAL);
+    }
+
+    public void remindLater(View view) {
+        changeMeal(R.layout.navigation_routeactive,Constants.LEFT_MEAL);
+    }
+
+    public void appointmentConfirmed(View view) {
+        changeMeal(R.layout.navigation_routeactive,Constants.LEFT_MEAL);
+    }
+
 
    /* public void updateProfile(int resourceId, String userId) {
         if(profileImage!=null && userName!=null)

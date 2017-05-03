@@ -107,6 +107,7 @@
                 android:drawableTop="@drawable/ic_call_transfer"
                 android:gravity="center"
                 android:text="@string/transfer"
+                android:onClick="transferCall"
                 android:textColor="@android:color/black"
                 android:textSize="@dimen/sp30" />
 
