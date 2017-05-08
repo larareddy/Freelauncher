@@ -5,145 +5,156 @@
     android:id="@+id/navigation_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="@dimen/dp18"
     android:orientation="vertical">
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp18"
         android:src="@drawable/default_persona_id_small" />
 
-    <android.support.v7.widget.CardView
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/dp24"
-        android:layout_marginRight="@dimen/dp24"
-        android:layout_marginTop="@dimen/dp13"
-        app:cardElevation="@dimen/dp8">
+        android:layout_marginTop="@dimen/dp124"
+        android:orientation="vertical">
 
-        <LinearLayout
+        <View
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/info_card"
-            android:orientation="vertical">
+            android:layout_height="@dimen/dp2"
+            android:layout_marginLeft="@dimen/dp24"
+            android:layout_marginRight="@dimen/dp24"
+            android:background="@drawable/divder" />
 
-            <RelativeLayout
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp148">
+
+            <ImageView
+                android:id="@+id/nav_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/dp44"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/dp32"
+                android:src="@drawable/ic_waypoint" />
+
+            <harman.com.freelauncher.customui.RobotoRegularTextView
+                android:id="@+id/nav_title_text"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/dp210">
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp150"
+                android:layout_marginTop="@dimen/dp10"
+                android:text="@string/way_point"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/sp54" />
 
-                <ImageView
-                    android:id="@+id/nav_iv"
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nav_title_text"
+                android:layout_marginStart="@dimen/dp150"
+                android:orientation="horizontal">
+
+                <harman.com.freelauncher.customui.RobotoBoldTextView
+                    android:id="@+id/nav_time_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_centerInParent="true"
-                    android:layout_marginStart="@dimen/dp18"
-                    android:src="@drawable/ic_destination_flag" />
+                    android:text="@string/_5_min"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/sp34" />
 
                 <harman.com.freelauncher.customui.RobotoRegularTextView
-                    android:id="@+id/nav_title_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/dp125"
-                    android:layout_marginTop="@dimen/dp32"
-                    android:text="@string/way_point"
-                    android:textColor="@color/colorBlue"
-                    android:textSize="@dimen/sp54" />
-
-                <LinearLayout
-                    android:id="@+id/linearLayout"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/nav_title_text"
-                    android:layout_marginStart="@dimen/dp125"
-                    android:orientation="horizontal">
-
-                    <harman.com.freelauncher.customui.RobotoBoldTextView
-                        android:id="@+id/nav_time_text"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/_5_min"
-                        android:textColor="@color/colorGreen"
-                        android:textSize="@dimen/sp42" />
-
-                    <harman.com.freelauncher.customui.RobotoRegularTextView
-                        android:id="@+id/nav_point_text"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="30dp"
-                        android:text="@string/stopover"
-                        android:textColor="@android:color/black"
-                        android:textSize="@dimen/sp42" />
-                </LinearLayout>
-
-            </RelativeLayout>
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/dp1"
-                android:background="@drawable/divder" />
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/dp210">
-
-                <ImageView
-                    android:id="@+id/cal_iv"
+                    android:id="@+id/nav_point_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_centerInParent="true"
-                    android:layout_marginStart="@dimen/dp18"
-                    android:src="@drawable/ic_calendar" />
+                    android:layout_marginStart="30dp"
+                    android:text="@string/stopover"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/sp34" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp2"
+            android:layout_marginLeft="@dimen/dp24"
+            android:layout_marginRight="@dimen/dp24"
+            android:background="@drawable/divder" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="148dp">
+
+            <ImageView
+                android:id="@+id/cal_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/dp44"
+                android:layout_marginTop="@dimen/dp32"
+                android:src="@drawable/ic_calendar" />
+
+            <harman.com.freelauncher.customui.RobotoRegularTextView
+                android:id="@+id/title_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp150"
+                android:layout_marginTop="@dimen/dp10"
+                android:text="@string/destination"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/sp54" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title_text"
+                android:layout_marginStart="@dimen/dp150"
+                android:orientation="horizontal">
+
+                <harman.com.freelauncher.customui.RobotoBoldTextView
+                    android:id="@+id/cal_time_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_15_min"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/sp34" />
 
                 <harman.com.freelauncher.customui.RobotoRegularTextView
-                    android:id="@+id/title_text"
-                    android:layout_width="match_parent"
+                    android:id="@+id/cal_point_text"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/dp125"
-                    android:layout_marginTop="@dimen/dp32"
-                    android:text="@string/destination"
-                    android:textColor="@color/colorBlue"
-                    android:textSize="@dimen/sp54" />
+                    android:layout_marginStart="@dimen/dp20"
+                    android:text="Meeting 10am - 11am"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/sp34" />
+            </LinearLayout>
+        </RelativeLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/title_text"
-                    android:layout_marginStart="@dimen/dp125"
-                    android:orientation="horizontal">
-
-                    <harman.com.freelauncher.customui.RobotoBoldTextView
-                        android:id="@+id/cal_time_text"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/_15_min"
-                        android:textColor="@color/colorGreen"
-                        android:textSize="@dimen/sp42" />
-
-                    <harman.com.freelauncher.customui.RobotoRegularTextView
-                        android:id="@+id/cal_point_text"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="@dimen/dp20"
-                        android:text="Meeting 10am - 11am"
-                        android:textColor="@android:color/black"
-                        android:textSize="@dimen/sp42" />
-                </LinearLayout>
-            </RelativeLayout>
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp2"
+            android:layout_marginLeft="@dimen/dp24"
+            android:layout_marginRight="@dimen/dp24"
+            android:background="@drawable/divder" />
+    </LinearLayout>
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/dp130"
-        android:layout_marginRight="@dimen/dp130"
-        android:layout_marginTop="@dimen/dp29"
+        android:layout_marginBottom="@dimen/dp31"
+        android:layout_marginLeft="@dimen/dp48"
+        android:layout_marginRight="@dimen/dp48"
+        android:layout_marginTop="@dimen/dp38"
         app:cardCornerRadius="@dimen/dp2"
-        app:cardElevation="@dimen/dp5"
-        app:cardUseCompatPadding="true">
+        app:cardElevation="@dimen/dp5">
 
         <harman.com.freelauncher.customui.RobotoRegularButton
             android:id="@+id/go"

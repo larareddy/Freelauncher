@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:onClick="leftMailWelcome"
+    android:orientation="vertical"
+    >
 
     <ImageView
         android:id="@+id/person_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/dp139"
         android:src="@drawable/default_persona_id_large">
 
@@ -19,9 +22,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/dp57"
+        android:layout_marginTop="@dimen/dp501"
+        android:layout_centerHorizontal="true"
         android:text="Welcome"
         android:textColor="@android:color/white"
         android:textSize="@dimen/sp74" />
 
-</LinearLayout>
+</RelativeLayout>

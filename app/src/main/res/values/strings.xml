@@ -31,6 +31,9 @@
     <string name="dest_miles">2.1mi</string>
     <string name="dest_time">10:07pm</string>
     <string name="caller_name">Jeanne Anderson</string>
+    <string name="available_appointments_desc">Maintenance for your vehicle is required soon.\nPlease select an available appointment below.</string>
+    <string name="route_available">Route Available</string>
+    <string name="map_text">Map</string>
 
 
 </resources>

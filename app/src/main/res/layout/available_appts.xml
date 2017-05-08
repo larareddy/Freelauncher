@@ -3,33 +3,42 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/maintenance_card"
     android:orientation="vertical">
 
     <ImageView
         android:id="@+id/maintainance"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/dp67"
-        android:layout_marginLeft="@dimen/dp18"
-        android:layout_marginTop="@dimen/dp19"
-        android:src="@drawable/ic_maintenance_blue" />
+        android:layout_marginLeft="48dp"
+        android:src="@drawable/ic_maintenance_white" />
 
     <harman.com.freelauncher.customui.RobotoRegularTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/dp30"
-        android:layout_marginTop="@dimen/dp19"
-        android:layout_toEndOf="@id/maintainance"
+        android:gravity="center_horizontal"
         android:maxLines="1"
         android:text="@string/available_appointments"
-        android:textColor="@color/colorBlue"
+        android:textColor="@color/colorWhite"
         android:textSize="@dimen/sp54" />
+
+    <harman.com.freelauncher.customui.RobotoRegularTextView
+        android:id="@+id/desc_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maintainance"
+        android:layout_marginLeft="@dimen/dp30"
+        android:layout_marginRight="@dimen/dp30"
+        android:layout_marginTop="@dimen/dp28"
+        android:gravity="center"
+        android:text="@string/available_appointments_desc"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/sp34" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/maintainance"
+        android:layout_below="@+id/desc_test"
         android:layout_marginLeft="@dimen/dp24"
         android:layout_marginRight="@dimen/dp24"
         android:layout_marginTop="@dimen/dp32"
@@ -38,15 +47,19 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp24"
+            android:layout_marginRight="@dimen/dp24"
             app:cardCornerRadius="@dimen/dp2"
             app:cardElevation="@dimen/dp7">
 
             <harman.com.freelauncher.customui.RobotoRegularButton
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dp80"
+                android:id="@+id/appt1"
                 android:background="@drawable/maintenance_btn"
                 android:gravity="center"
                 android:text="@string/appt1"
+                android:backgroundTint="@color/colorWhite"
                 android:textAllCaps="false"
                 android:textSize="@dimen/sp42" />
         </android.support.v7.widget.CardView>
@@ -54,6 +67,8 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp24"
+            android:layout_marginRight="@dimen/dp24"
             android:layout_marginTop="@dimen/dp21"
             app:cardCornerRadius="@dimen/dp2"
             app:cardElevation="@dimen/dp7">
@@ -62,10 +77,12 @@
             <harman.com.freelauncher.customui.RobotoRegularButton
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dp80"
+                android:id="@+id/appt2"
                 android:background="@drawable/maintenance_btn"
                 android:gravity="center"
-                android:text="@string/appt2"
                 android:onClick="appointmentSelected"
+                android:text="@string/appt2"
+                android:backgroundTint="@color/colorWhite"
                 android:textAllCaps="false"
                 android:textSize="@dimen/sp42" />
         </android.support.v7.widget.CardView>
@@ -73,24 +90,8 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dp21"
-            app:cardCornerRadius="@dimen/dp2"
-            app:cardElevation="@dimen/dp7">
-
-
-            <harman.com.freelauncher.customui.RobotoRegularButton
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/dp80"
-                android:background="@drawable/maintenance_btn"
-                android:gravity="center"
-                android:text="@string/appt3"
-                android:textAllCaps="false"
-                android:textSize="@dimen/sp42" />
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp24"
+            android:layout_marginRight="@dimen/dp24"
             android:layout_marginTop="@dimen/dp21"
             app:cardCornerRadius="@dimen/dp2"
             app:cardElevation="@dimen/dp7">
@@ -98,10 +99,12 @@
             <harman.com.freelauncher.customui.RobotoRegularButton
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dp80"
+                android:id="@+id/remind"
                 android:background="@drawable/maintenance_btn"
                 android:gravity="center"
-                android:text="@string/remind"
                 android:onClick="remindLater"
+                android:text="@string/remind"
+                android:backgroundTint="@color/colorWhite"
                 android:textAllCaps="false"
                 android:textSize="@dimen/sp42"
                 android:textStyle="normal" />

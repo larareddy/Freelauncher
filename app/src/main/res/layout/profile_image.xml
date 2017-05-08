@@ -19,6 +19,23 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/dp501"
         android:text="@string/profile_name"
+        android:id="@+id/username"
         android:textColor="@android:color/white"
         android:textSize="@dimen/sp74" />
+    <TextView
+        android:id="@+id/location_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginTop="@dimen/dp57"
+        android:text="@string/route_available"
+        android:textAlignment="center"
+        android:drawablePadding="@dimen/dp27"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:drawableLeft="@drawable/ic_waypoint_small"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sp34" />
+
 </RelativeLayout>

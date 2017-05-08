@@ -33,6 +33,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="start"
                 android:text="@string/caller_name"
+                android:maxLines="1"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/sp60" />
 
