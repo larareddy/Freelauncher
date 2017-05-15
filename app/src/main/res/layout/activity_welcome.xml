@@ -24,7 +24,7 @@
 
             <include
                 android:id="@+id/left_meal_include"
-                layout="@layout/profile_image" />
+                layout="@layout/generic_welcome" />
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView

@@ -74,7 +74,7 @@ public class WelcomeActivity extends AppCompatActivity implements ActivityCallBa
                 height,
                 width
         );
-        params.setMargins(24,0,24,24);
+        params.setMargins(24,0,0,24);
 //        card.setLayoutParams(params);
         cardView.setLayoutParams(params);
     }
